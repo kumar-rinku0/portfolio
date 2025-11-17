@@ -2,10 +2,10 @@ import { FiDownload } from "react-icons/fi";
 
 // components
 import Socials from "@/components/Socials";
-import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 import Link from "next/link";
 import AnimatedText from "@/components/AnimatedText";
+import EarthCircle from "@/components/Earth";
 
 export default function Home() {
   return (
@@ -57,7 +57,7 @@ export default function Home() {
           </div>
           {/* photo */}
           <div className="order-1 xl:order-none" aria-hidden="true">
-            <Photo />
+            <EarthCircle />
           </div>
         </div>
       </div>
