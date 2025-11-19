@@ -15,7 +15,7 @@ const JetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "rinku-portfolio",
+  title: "portfolio application",
   description: "portfolio application build by nextjs",
 };
 

@@ -21,7 +21,7 @@ function Earth() {
   });
   const axialTilt = (23.4 * Math.PI) / 180;
   return (
-    <group rotation-z={axialTilt} scale={1.45}>
+    <group rotation-z={axialTilt} scale={1.3}>
       <mesh ref={ref}>
         <icosahedronGeometry args={[2, 64]} />
         <EarthMaterial sunDirection={sunDirection} />
@@ -36,12 +36,7 @@ function EarthCircle() {
   return (
     <Canvas
       style={{
-        width: "80vw", // 80% of viewport width
-        height: "80vw", // keep it square
-        maxWidth: "600px",
-        maxHeight: "600px",
-        minWidth: "300px",
-        minHeight: "300px",
+        height: "90vh", // keep it square
       }}
       camera={{ position: [0, 0.1, 5] }}
       gl={{ toneMapping: THREE.NoToneMapping }}
@@ -49,8 +44,8 @@ function EarthCircle() {
       <Earth />
       <hemisphereLight args={[0xffffff, 0x000000, 3.0]} />
       <directionalLight position={[x, y, z]} />
-      {/* <Nebula /> */}
-      {/* <Starfield /> */}
+      <Nebula />
+      <Starfield />
       <OrbitControls />
     </Canvas>
   );

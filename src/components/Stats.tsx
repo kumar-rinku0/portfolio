@@ -6,23 +6,23 @@ import {
   animate,
   useIsomorphicLayoutEffect,
 } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 
 const stats = [
   {
-    num: 2,
+    num: 3,
     text: "years of non-corporate exp",
   },
   {
-    num: 18,
+    num: 27,
     text: "projects build & deployed",
   },
   {
-    num: 9,
+    num: 12,
     text: "technologies mastered.",
   },
   {
-    num: 999,
+    num: 1699,
     text: "+ code commits on github!",
   },
 ];

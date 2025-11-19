@@ -30,6 +30,7 @@ export default function Home() {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link
                 href={
+                  // "https://resume.rinkukumar.in"
                   "https://drive.google.com/file/d/1CKEfIpmo73U3jKZkoOiBG4W2X5pSkDJi/view?usp=sharing"
                 }
                 prefetch={false}
@@ -56,7 +57,10 @@ export default function Home() {
             </div>
           </div>
           {/* photo */}
-          <div className="order-1 xl:order-none" aria-hidden="true">
+          <div
+            className="order-1 xl:order-none cursor-all-scroll"
+            aria-hidden="true"
+          >
             <EarthCircle />
           </div>
         </div>
