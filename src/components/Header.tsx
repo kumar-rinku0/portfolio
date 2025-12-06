@@ -21,8 +21,8 @@ const links = [
     path: "/work",
   },
   {
-    name: "resume",
-    path: "/resume",
+    name: "About-Me",
+    path: "/about-me",
   },
   {
     name: "contect",
@@ -113,7 +113,7 @@ const Header = () => {
           title=": )"
           className="flex items-end gap-4"
         >
-          <FaSkull className="h-8 text-3xl xl:text-4xl text-[#505050]" />
+          <span className="text-2xl">🌱</span>
           <Image
             src={sign}
             alt="sign"

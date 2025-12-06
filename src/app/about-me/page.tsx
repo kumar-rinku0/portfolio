@@ -193,12 +193,12 @@ const Resume = () => {
         })}
       </div>
       {activeTabIndex == 0 && (
-        <div className="mt-16 container w-full xl:min-w-[1080px]">
+        <div className="my-16 container w-full xl:min-w-[1080px]">
           <h3 className="mb-4">{education.title}</h3>
           <p className="text-base leading-relaxed text-white/50">
             {education.description}
           </p>
-          <ul className="max-h-[60vh] w-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
+          <ul className="max-h-[60vh] w-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 my-16">
             {education.items.map((value, index) => {
               return (
                 <li
@@ -215,12 +215,12 @@ const Resume = () => {
         </div>
       )}
       {activeTabIndex == 1 && (
-        <div className="mt-16 container">
+        <div className="my-16 container">
           <h3 className="mb-4">{experience.title}</h3>
           <p className="text-base leading-relaxed text-white/50">
             {experience.description}
           </p>
-          <ul className="max-h-[60vh] w-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-16">
+          <ul className="max-h-[60vh] w-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 my-16">
             {experience.items.map((value, index) => {
               return (
                 <li
@@ -237,7 +237,7 @@ const Resume = () => {
         </div>
       )}
       {activeTabIndex == 2 && (
-        <div className="mt-16 container">
+        <div className="my-16 container">
           <h3 className="mb-4">{skill.title}</h3>
           <p className="text-base leading-relaxed text-white/50">
             {skill.description}
@@ -257,12 +257,12 @@ const Resume = () => {
         </div>
       )}
       {activeTabIndex == 3 && (
-        <div className="mt-16 container">
+        <div className="my-16 container">
           <h3 className="mb-4">{about.title}</h3>
           <p className="text-base leading-relaxed text-white/50">
             {about.description}
           </p>
-          <div className="flex flex-col justify-center items-start mt-16">
+          <div className="flex flex-col justify-center items-start my-16">
             {about.info.map((value, index) => {
               return (
                 <div key={index}>
