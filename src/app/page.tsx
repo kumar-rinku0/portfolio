@@ -14,10 +14,10 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row items-center justify-evenly xl:justify-between xl:pt-8 xl:pb-16">
           {/* text  */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span> Full Stack Developer </span>
+            <span> 🌱 Let&apos;s start seeding... </span>
             <h1 className="h1">
-              Hello I&apos;m <br />{" "}
-              <span className="text-accent">Rinku Kumar</span>
+              Namaste 👋 <br />{" "}
+              <span className="text-accent">Welcome To My Portfolio</span>
             </h1>
             <AnimatedText
               el="p"
@@ -28,7 +28,7 @@ export default function Home() {
             />
             {/* buttons and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Link
+              {/* <Link
                 href={
                   // "https://resume.rinkukumar.in"
                   "https://drive.google.com/file/d/1CKEfIpmo73U3jKZkoOiBG4W2X5pSkDJi/view?usp=sharing"
@@ -46,7 +46,7 @@ export default function Home() {
                     <FiDownload className="text-lg" />
                   </div>
                 </button>
-              </Link>
+              </Link> */}
               {/* socials */}
               <div className="mb-8 xl:mb-0">
                 <Socials
