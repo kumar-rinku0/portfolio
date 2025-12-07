@@ -11,15 +11,15 @@ import { useRef } from "react";
 const stats = [
   {
     num: 3,
-    text: "+ years of non-corporate exp",
+    text: "years of non-corporate exp",
   },
   {
     num: 27,
-    text: "+ projects build & deployed",
+    text: "projects build & deployed",
   },
   {
     num: 12,
-    text: "+ technologies mastered.",
+    text: "technologies mastered.",
   },
   {
     num: 1699,
